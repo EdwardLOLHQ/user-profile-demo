@@ -1,0 +1,175 @@
+{
+  "input": {
+    "postcode": "3000",
+    "retailer": "Origin",
+    "seed": 42
+  },
+  "generated_at": "2026-04-21",
+  "profiles": [
+    {
+      "profile_index": 1,
+      "profile_id": "plan_only_single_worker_1p",
+      "scenario_hint": "PLAN ONLY",
+      "people_count": 1,
+      "wfh_days": 2,
+      "summer": {
+        "month_of_bill": "2026-01",
+        "lighting_daily_kwh": null,
+        "ac_daily_kwh": null,
+        "heating_daily_kwh": null,
+        "E1_daily_kwh": 13.5103,
+        "E2_daily_kwh": 0.0,
+        "B1_daily_kwh": 0.0
+      },
+      "winter": {
+        "month_of_bill": "2026-07",
+        "lighting_daily_kwh": null,
+        "ac_daily_kwh": null,
+        "heating_daily_kwh": null,
+        "E1_daily_kwh": 14.3546,
+        "E2_daily_kwh": 0.0,
+        "B1_daily_kwh": 0.0
+      },
+      "delta": {
+        "lighting_winter_minus_summer": null,
+        "ac_winter_minus_summer": null,
+        "heating_winter_minus_summer": null,
+        "E1_winter_minus_summer": 0.8443,
+        "E2_winter_minus_summer": 0.0,
+        "B1_winter_minus_summer": 0.0
+      }
+    },
+    {
+      "profile_index": 2,
+      "profile_id": "plan_only_couple_2_3p_mixed",
+      "scenario_hint": "PLAN ONLY",
+      "people_count": 2,
+      "wfh_days": 3,
+      "summer": {
+        "month_of_bill": "2026-01",
+        "lighting_daily_kwh": null,
+        "ac_daily_kwh": null,
+        "heating_daily_kwh": null,
+        "E1_daily_kwh": 16.1047,
+        "E2_daily_kwh": 0.0,
+        "B1_daily_kwh": 0.0
+      },
+      "winter": {
+        "month_of_bill": "2026-07",
+        "lighting_daily_kwh": null,
+        "ac_daily_kwh": null,
+        "heating_daily_kwh": null,
+        "E1_daily_kwh": 23.8584,
+        "E2_daily_kwh": 0.0,
+        "B1_daily_kwh": 0.0
+      },
+      "delta": {
+        "lighting_winter_minus_summer": null,
+        "ac_winter_minus_summer": null,
+        "heating_winter_minus_summer": null,
+        "E1_winter_minus_summer": 7.7537,
+        "E2_winter_minus_summer": 0.0,
+        "B1_winter_minus_summer": 0.0
+      }
+    },
+    {
+      "profile_index": 3,
+      "profile_id": "plan_only_family_4_plus",
+      "scenario_hint": "PLAN ONLY",
+      "people_count": "4+",
+      "wfh_days": 1,
+      "summer": {
+        "month_of_bill": "2026-01",
+        "lighting_daily_kwh": null,
+        "ac_daily_kwh": null,
+        "heating_daily_kwh": null,
+        "E1_daily_kwh": 24.3863,
+        "E2_daily_kwh": 6.0,
+        "B1_daily_kwh": 0.0
+      },
+      "winter": {
+        "month_of_bill": "2026-07",
+        "lighting_daily_kwh": null,
+        "ac_daily_kwh": null,
+        "heating_daily_kwh": null,
+        "E1_daily_kwh": 14.7121,
+        "E2_daily_kwh": 6.0,
+        "B1_daily_kwh": 0.0
+      },
+      "delta": {
+        "lighting_winter_minus_summer": null,
+        "ac_winter_minus_summer": null,
+        "heating_winter_minus_summer": null,
+        "E1_winter_minus_summer": -9.6742,
+        "E2_winter_minus_summer": 0.0,
+        "B1_winter_minus_summer": 0.0
+      }
+    },
+    {
+      "profile_index": 4,
+      "profile_id": "plan_solar_existing_wfh",
+      "scenario_hint": "PLAN + SOLAR (EXIST)",
+      "people_count": 2,
+      "wfh_days": 5,
+      "summer": {
+        "month_of_bill": "2026-01",
+        "lighting_daily_kwh": null,
+        "ac_daily_kwh": null,
+        "heating_daily_kwh": null,
+        "E1_daily_kwh": 14.6176,
+        "E2_daily_kwh": 6.0,
+        "B1_daily_kwh": 19.7429
+      },
+      "winter": {
+        "month_of_bill": "2026-07",
+        "lighting_daily_kwh": null,
+        "ac_daily_kwh": null,
+        "heating_daily_kwh": null,
+        "E1_daily_kwh": 12.1611,
+        "E2_daily_kwh": 6.0,
+        "B1_daily_kwh": 21.9304
+      },
+      "delta": {
+        "lighting_winter_minus_summer": null,
+        "ac_winter_minus_summer": null,
+        "heating_winter_minus_summer": null,
+        "E1_winter_minus_summer": -2.4565,
+        "E2_winter_minus_summer": 0.0,
+        "B1_winter_minus_summer": 2.1875
+      }
+    },
+    {
+      "profile_index": 5,
+      "profile_id": "plan_solar_battery_ev_family",
+      "scenario_hint": "PLAN + SOLAR (EXIST)",
+      "people_count": "4+",
+      "wfh_days": 3,
+      "summer": {
+        "month_of_bill": "2026-01",
+        "lighting_daily_kwh": null,
+        "ac_daily_kwh": null,
+        "heating_daily_kwh": null,
+        "E1_daily_kwh": 37.442,
+        "E2_daily_kwh": 6.0,
+        "B1_daily_kwh": 26.9844
+      },
+      "winter": {
+        "month_of_bill": "2026-07",
+        "lighting_daily_kwh": null,
+        "ac_daily_kwh": null,
+        "heating_daily_kwh": null,
+        "E1_daily_kwh": 38.0577,
+        "E2_daily_kwh": 6.0,
+        "B1_daily_kwh": 26.9844
+      },
+      "delta": {
+        "lighting_winter_minus_summer": null,
+        "ac_winter_minus_summer": null,
+        "heating_winter_minus_summer": null,
+        "E1_winter_minus_summer": 0.6157,
+        "E2_winter_minus_summer": 0.0,
+        "B1_winter_minus_summer": 0.0
+      }
+    }
+  ]
+}

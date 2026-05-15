@@ -1,0 +1,29 @@
+{
+  "energy_usage": {
+    "monthly_bill": 210,
+    "month_of_bill": "2026-07"
+  },
+  "household": {
+    "people_count": 3,
+    "type": "Townhouse",
+    "ownership": "own",
+    "work_from_home_days": 2,
+    "occupancy_pattern": ["weekday_evening_only", "public_holiday_home"]
+  },
+  "solar": {
+    "has_solar": true
+  },
+  "ev": {
+    "has_ev": false
+  },
+  "device_inputs": {
+    "dishwasher": {
+      "enabled": true,
+      "input": {
+        "runs_per_week": 4,
+        "start_hour": 19,
+        "end_hour": 21
+      }
+    }
+  }
+}

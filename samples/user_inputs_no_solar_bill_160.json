@@ -1,0 +1,19 @@
+{
+  "energy_usage": {
+    "monthly_bill": 160,
+    "month_of_bill": "2026-04"
+  },
+  "household": {
+    "people_count": 3,
+    "work_from_home_days": 2
+  },
+  "solar": {
+    "has_solar": false
+  },
+  "ev": {
+    "has_ev": false
+  },
+  "battery": {
+    "has_battery": false
+  }
+}

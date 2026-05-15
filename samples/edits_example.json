@@ -1,0 +1,20 @@
+{
+  "household": {
+    "work_from_home_days": 5,
+    "controlled_load_present": true
+  },
+  "energy_usage": {
+    "monthly_usage_kwh": 740
+  },
+  "ev": {
+    "has_ev": true,
+    "usage": {
+      "annual_km": 16000
+    },
+    "charging": {
+      "pattern": "overnight",
+      "home_charging_share": 0.95
+    }
+  }
+}
+

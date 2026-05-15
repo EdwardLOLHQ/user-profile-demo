@@ -1,0 +1,2049 @@
+{
+  "input_required": {
+    "postcode": "3000",
+    "retailer": "Origin"
+  },
+  "seed": 42,
+  "user_input_hints_applied": {},
+  "generated_profile_summaries": [
+    {
+      "index": 1,
+      "profile_id": "plan_only_single_worker_1p",
+      "scenario_hint": "PLAN ONLY",
+      "type": "Apartment",
+      "ownership": "rent",
+      "people_count": 1,
+      "occupancy_pattern": [
+        "weekday_evening_only",
+        "public_holiday_away",
+        "summer_low_occupancy"
+      ],
+      "wfh_days": 2,
+      "monthly_bill": 160,
+      "monthly_usage_kwh": null,
+      "has_solar": false,
+      "has_battery": false,
+      "has_ev": false,
+      "enabled_devices": 6,
+      "devices": {
+        "lighting": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "autumn",
+            "quantity": 7,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "refrigerator": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "wifi_router": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "air_conditioning": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "autumn",
+            "quantity": 1,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "electric_heating": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "morning",
+            "season": "autumn",
+            "quantity": 1,
+            "start_hour": 6,
+            "end_hour": 9
+          }
+        },
+        "pool_pump": {
+          "enabled": false
+        },
+        "dishwasher": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 3,
+            "time_of_day": "evening",
+            "start_hour": 19,
+            "end_hour": 21
+          }
+        },
+        "dryer": {
+          "enabled": false
+        },
+        "induction_cooktop": {
+          "enabled": false
+        },
+        "ev_charging": {
+          "enabled": false
+        },
+        "electric_hot_water_controlled_load": {
+          "enabled": false
+        }
+      },
+      "interval_daily": {
+        "E1_daily_kwh": 13.6713,
+        "E2_daily_kwh": 0.0,
+        "B1_daily_kwh": 0.0,
+        "solar_generation_daily_kwh": 0.0
+      },
+      "billing_alignment": {
+        "estimated_monthly_bill": 154.54,
+        "observed_monthly_bill": 160.0,
+        "bill_alignment_error_abs": 5.46,
+        "bill_alignment_error_pct": 3.41
+      },
+      "interval": {
+        "E1": {
+          "interval_reads": [
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            2.2523076923076926,
+            1.8869230769230771,
+            0.7907692307692309,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            3.9222204301075267,
+            2.3398771121351767,
+            1.0722204301075269,
+            0.2643548387096774,
+            0.18261290322580645,
+            0.060000000000000005
+          ],
+          "daily_kwh": 13.6713
+        },
+        "E2": {
+          "interval_reads": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 0.0
+        },
+        "B1": {
+          "interval_reads": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 0.0
+        },
+        "solar_generation": {
+          "interval_reads": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 0.0
+        }
+      }
+    },
+    {
+      "index": 2,
+      "profile_id": "plan_only_couple_2_3p_mixed",
+      "scenario_hint": "PLAN ONLY",
+      "type": "Detached",
+      "ownership": "own",
+      "people_count": 2,
+      "occupancy_pattern": [
+        "weekday_evening_only",
+        "work_from_home_pattern"
+      ],
+      "wfh_days": 3,
+      "monthly_bill": null,
+      "monthly_usage_kwh": 360,
+      "has_solar": false,
+      "has_battery": false,
+      "has_ev": false,
+      "enabled_devices": 7,
+      "devices": {
+        "lighting": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "autumn",
+            "quantity": 11,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "refrigerator": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "wifi_router": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "air_conditioning": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "daytime",
+            "season": "autumn",
+            "quantity": 1,
+            "start_hour": 12,
+            "end_hour": 18
+          }
+        },
+        "electric_heating": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "autumn",
+            "quantity": 1,
+            "start_hour": 17,
+            "end_hour": 22
+          }
+        },
+        "pool_pump": {
+          "enabled": false
+        },
+        "dishwasher": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 5,
+            "time_of_day": "evening",
+            "start_hour": 19,
+            "end_hour": 21
+          }
+        },
+        "dryer": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 2,
+            "time_of_day": "evening",
+            "start_hour": 20,
+            "end_hour": 22
+          }
+        },
+        "induction_cooktop": {
+          "enabled": false
+        },
+        "ev_charging": {
+          "enabled": false
+        },
+        "electric_hot_water_controlled_load": {
+          "enabled": false
+        }
+      },
+      "interval_daily": {
+        "E1_daily_kwh": 15.4524,
+        "E2_daily_kwh": 0.0,
+        "B1_daily_kwh": 0.0,
+        "solar_generation_daily_kwh": 0.0
+      },
+      "billing_alignment": {
+        "estimated_monthly_bill": 170.57,
+        "observed_monthly_bill": null,
+        "bill_alignment_error_abs": null,
+        "bill_alignment_error_pct": null
+      },
+      "interval": {
+        "E1": {
+          "interval_reads": [
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.7227906976744186,
+            0.8553488372093023,
+            1.1204651162790698,
+            1.2530232558139536,
+            1.1204651162790698,
+            1.8068724939855654,
+            2.005127178346311,
+            2.7627027384925054,
+            2.0642404788389213,
+            0.7087152391546163,
+            0.25267741935483873,
+            0.060000000000000005
+          ],
+          "daily_kwh": 15.4524
+        },
+        "E2": {
+          "interval_reads": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 0.0
+        },
+        "B1": {
+          "interval_reads": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 0.0
+        },
+        "solar_generation": {
+          "interval_reads": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 0.0
+        }
+      }
+    },
+    {
+      "index": 3,
+      "profile_id": "plan_only_family_4_plus",
+      "scenario_hint": "PLAN ONLY",
+      "type": "Detached",
+      "ownership": "own",
+      "people_count": "4+",
+      "occupancy_pattern": [
+        "weekday_evening_only",
+        "school_term_pattern",
+        "public_holiday_home"
+      ],
+      "wfh_days": 1,
+      "monthly_bill": null,
+      "monthly_usage_kwh": 820,
+      "has_solar": false,
+      "has_battery": false,
+      "has_ev": false,
+      "enabled_devices": 8,
+      "devices": {
+        "lighting": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "summer",
+            "quantity": 13,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "refrigerator": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "wifi_router": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "air_conditioning": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "summer",
+            "quantity": 2,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "electric_heating": {
+          "enabled": false
+        },
+        "pool_pump": {
+          "enabled": false
+        },
+        "dishwasher": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 8,
+            "time_of_day": "evening",
+            "start_hour": 19,
+            "end_hour": 21
+          }
+        },
+        "dryer": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 5,
+            "time_of_day": "evening",
+            "start_hour": 20,
+            "end_hour": 22
+          }
+        },
+        "induction_cooktop": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "quantity": 2,
+            "start_hour": 17,
+            "end_hour": 20
+          }
+        },
+        "ev_charging": {
+          "enabled": false
+        },
+        "electric_hot_water_controlled_load": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "overnight",
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 6
+          }
+        }
+      },
+      "interval_daily": {
+        "E1_daily_kwh": 24.9148,
+        "E2_daily_kwh": 6.0,
+        "B1_daily_kwh": 0.0,
+        "solar_generation_daily_kwh": 0.0
+      },
+      "billing_alignment": {
+        "estimated_monthly_bill": 295.33,
+        "observed_monthly_bill": null,
+        "bill_alignment_error_abs": null,
+        "bill_alignment_error_pct": null
+      },
+      "interval": {
+        "E1": {
+          "interval_reads": [
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.5933333333333335,
+            11.802627956989248,
+            6.550702764976958,
+            4.2216755760368665,
+            0.4015645161290323,
+            0.2649387096774194,
+            0.060000000000000005
+          ],
+          "daily_kwh": 24.9148
+        },
+        "E2": {
+          "interval_reads": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 6.0
+        },
+        "B1": {
+          "interval_reads": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 0.0
+        },
+        "solar_generation": {
+          "interval_reads": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 0.0
+        }
+      }
+    },
+    {
+      "index": 4,
+      "profile_id": "plan_solar_existing_wfh",
+      "scenario_hint": "PLAN + SOLAR (EXIST)",
+      "type": "Detached",
+      "ownership": "own",
+      "people_count": 2,
+      "occupancy_pattern": [
+        "weekday_daytime_home",
+        "public_holiday_home"
+      ],
+      "wfh_days": 5,
+      "monthly_bill": null,
+      "monthly_usage_kwh": 620,
+      "has_solar": true,
+      "has_battery": false,
+      "has_ev": false,
+      "enabled_devices": 8,
+      "devices": {
+        "lighting": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "summer",
+            "quantity": 11,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "refrigerator": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "wifi_router": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "air_conditioning": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "summer",
+            "quantity": 1,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "electric_heating": {
+          "enabled": false
+        },
+        "pool_pump": {
+          "enabled": false
+        },
+        "dishwasher": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 7,
+            "time_of_day": "evening",
+            "start_hour": 19,
+            "end_hour": 21
+          }
+        },
+        "dryer": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 4,
+            "time_of_day": "evening",
+            "start_hour": 20,
+            "end_hour": 22
+          }
+        },
+        "induction_cooktop": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "quantity": 1,
+            "start_hour": 17,
+            "end_hour": 20
+          }
+        },
+        "ev_charging": {
+          "enabled": false
+        },
+        "electric_hot_water_controlled_load": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "overnight",
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 6
+          }
+        }
+      },
+      "interval_daily": {
+        "E1_daily_kwh": 14.9605,
+        "E2_daily_kwh": 6.0,
+        "B1_daily_kwh": 25.4467,
+        "solar_generation_daily_kwh": 26.4
+      },
+      "billing_alignment": {
+        "estimated_monthly_bill": 120.82,
+        "observed_monthly_bill": null,
+        "bill_alignment_error_abs": null,
+        "bill_alignment_error_pct": null
+      },
+      "interval": {
+        "E1": {
+          "interval_reads": [
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.3266666666666667,
+            6.104723655913979,
+            4.016693548387098,
+            2.8499617511520734,
+            0.3490161290322581,
+            0.23340967741935487,
+            0.060000000000000005
+          ],
+          "daily_kwh": 14.9605
+        },
+        "E2": {
+          "interval_reads": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 6.0
+        },
+        "B1": {
+          "interval_reads": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.23333333333333328,
+            0.8199999999999997,
+            1.6999999999999995,
+            2.5799999999999996,
+            3.459999999999999,
+            4.046666666666667,
+            4.046666666666667,
+            3.459999999999999,
+            2.5799999999999996,
+            1.6999999999999995,
+            0.8199999999999997,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 25.4467
+        },
+        "solar_generation": {
+          "interval_reads": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.2933333333333333,
+            0.8799999999999998,
+            1.7599999999999996,
+            2.6399999999999997,
+            3.519999999999999,
+            4.1066666666666665,
+            4.1066666666666665,
+            3.519999999999999,
+            2.6399999999999997,
+            1.7599999999999996,
+            0.8799999999999998,
+            0.2933333333333333,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 26.4
+        }
+      }
+    },
+    {
+      "index": 5,
+      "profile_id": "plan_solar_battery_ev_family",
+      "scenario_hint": "PLAN + SOLAR (EXIST)",
+      "type": "Detached",
+      "ownership": "own",
+      "people_count": "4+",
+      "occupancy_pattern": [
+        "weekday_evening_only",
+        "school_term_pattern",
+        "public_holiday_home"
+      ],
+      "wfh_days": 3,
+      "monthly_bill": null,
+      "monthly_usage_kwh": 860,
+      "has_solar": true,
+      "has_battery": true,
+      "has_ev": true,
+      "enabled_devices": 11,
+      "devices": {
+        "lighting": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "summer",
+            "quantity": 14,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "refrigerator": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "wifi_router": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "air_conditioning": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "summer",
+            "quantity": 2,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "electric_heating": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "morning",
+            "season": "summer",
+            "quantity": 1,
+            "start_hour": 6,
+            "end_hour": 9
+          }
+        },
+        "pool_pump": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "daytime",
+            "quantity": 1,
+            "start_hour": 10,
+            "end_hour": 16
+          }
+        },
+        "dishwasher": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 6,
+            "time_of_day": "evening",
+            "start_hour": 19,
+            "end_hour": 21
+          }
+        },
+        "dryer": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 3,
+            "time_of_day": "evening",
+            "start_hour": 20,
+            "end_hour": 22
+          }
+        },
+        "induction_cooktop": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "quantity": 2,
+            "start_hour": 17,
+            "end_hour": 20
+          }
+        },
+        "ev_charging": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "overnight",
+            "start_hour": 0,
+            "end_hour": 6,
+            "home_charging_share": 1.0,
+            "quantity": 1
+          }
+        },
+        "electric_hot_water_controlled_load": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "overnight",
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 6
+          }
+        }
+      },
+      "interval_daily": {
+        "E1_daily_kwh": 37.2706,
+        "E2_daily_kwh": 6.0,
+        "B1_daily_kwh": 25.1822,
+        "solar_generation_daily_kwh": 32.0
+      },
+      "billing_alignment": {
+        "estimated_monthly_bill": 269.63,
+        "observed_monthly_bill": null,
+        "bill_alignment_error_abs": null,
+        "bill_alignment_error_pct": null
+      },
+      "interval": {
+        "E1": {
+          "interval_reads": [
+            1.06,
+            1.06,
+            1.06,
+            1.06,
+            1.06,
+            1.06,
+            1.56,
+            1.31,
+            0.56,
+            0.060000000000000005,
+            1.06,
+            1.06,
+            1.06,
+            1.06,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.060000000000000005,
+            0.5933333333333335,
+            11.841163440860216,
+            6.25163594470046,
+            3.54592534562212,
+            0.4278387096774193,
+            0.28070322580645163,
+            0.060000000000000005
+          ],
+          "daily_kwh": 37.2706
+        },
+        "E2": {
+          "interval_reads": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 6.0
+        },
+        "B1": {
+          "interval_reads": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.5733333333333328,
+            3.1399999999999992,
+            3.2066666666666657,
+            3.917777777777778,
+            3.917777777777778,
+            3.2066666666666657,
+            3.1399999999999992,
+            2.073333333333333,
+            1.0066666666666664,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 25.1822
+        },
+        "solar_generation": {
+          "interval_reads": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.3555555555555555,
+            1.0666666666666664,
+            2.133333333333333,
+            3.1999999999999993,
+            4.266666666666666,
+            4.977777777777778,
+            4.977777777777778,
+            4.266666666666666,
+            3.1999999999999993,
+            2.133333333333333,
+            1.0666666666666664,
+            0.3555555555555555,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "daily_kwh": 32.0
+        }
+      }
+    }
+  ],
+  "selected_index": 5,
+  "selected": {
+    "index": 5,
+    "before_summary": {
+      "profile_id": "plan_solar_battery_ev_family",
+      "scenario_hint": "PLAN + SOLAR (EXIST)",
+      "type": "Detached",
+      "ownership": "own",
+      "people_count": "4+",
+      "occupancy_pattern": [
+        "weekday_evening_only",
+        "school_term_pattern",
+        "public_holiday_home"
+      ],
+      "wfh_days": 3,
+      "monthly_bill": null,
+      "monthly_usage_kwh": 860,
+      "has_solar": true,
+      "has_battery": true,
+      "has_ev": true,
+      "enabled_devices": 11,
+      "devices": {
+        "lighting": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "summer",
+            "quantity": 14,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "refrigerator": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "wifi_router": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "air_conditioning": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "summer",
+            "quantity": 2,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "electric_heating": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "morning",
+            "season": "summer",
+            "quantity": 1,
+            "start_hour": 6,
+            "end_hour": 9
+          }
+        },
+        "pool_pump": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "daytime",
+            "quantity": 1,
+            "start_hour": 10,
+            "end_hour": 16
+          }
+        },
+        "dishwasher": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 6,
+            "time_of_day": "evening",
+            "start_hour": 19,
+            "end_hour": 21
+          }
+        },
+        "dryer": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 3,
+            "time_of_day": "evening",
+            "start_hour": 20,
+            "end_hour": 22
+          }
+        },
+        "induction_cooktop": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "quantity": 2,
+            "start_hour": 17,
+            "end_hour": 20
+          }
+        },
+        "ev_charging": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "overnight",
+            "start_hour": 0,
+            "end_hour": 6,
+            "home_charging_share": 1.0,
+            "quantity": 1
+          }
+        },
+        "electric_hot_water_controlled_load": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "overnight",
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 6
+          }
+        }
+      }
+    },
+    "final_summary": {
+      "profile_id": "plan_solar_battery_ev_family",
+      "scenario_hint": "PLAN + SOLAR (EXIST)",
+      "type": "Detached",
+      "ownership": "own",
+      "people_count": "4+",
+      "occupancy_pattern": [
+        "weekday_evening_only",
+        "school_term_pattern",
+        "public_holiday_home"
+      ],
+      "wfh_days": 3,
+      "monthly_bill": null,
+      "monthly_usage_kwh": 860,
+      "has_solar": true,
+      "has_battery": true,
+      "has_ev": true,
+      "enabled_devices": 11,
+      "devices": {
+        "lighting": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "winter",
+            "quantity": 17,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "refrigerator": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "wifi_router": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "air_conditioning": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "winter",
+            "quantity": 1,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "electric_heating": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "winter",
+            "quantity": 2,
+            "start_hour": 17,
+            "end_hour": 22
+          }
+        },
+        "pool_pump": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "daytime",
+            "quantity": 1,
+            "start_hour": 10,
+            "end_hour": 16
+          }
+        },
+        "dishwasher": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 7,
+            "time_of_day": "evening",
+            "start_hour": 19,
+            "end_hour": 21
+          }
+        },
+        "dryer": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 3,
+            "time_of_day": "evening",
+            "start_hour": 20,
+            "end_hour": 22
+          }
+        },
+        "induction_cooktop": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "quantity": 2,
+            "start_hour": 17,
+            "end_hour": 20
+          }
+        },
+        "ev_charging": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "overnight",
+            "start_hour": 0,
+            "end_hour": 6,
+            "home_charging_share": 1.0,
+            "quantity": 1
+          }
+        },
+        "electric_hot_water_controlled_load": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "overnight",
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 6
+          }
+        }
+      },
+      "billing_alignment": {
+        "estimated_monthly_bill": 287.53,
+        "observed_monthly_bill": null,
+        "bill_alignment_error_abs": null,
+        "bill_alignment_error_pct": null
+      }
+    },
+    "edits_applied": {
+      "energy_usage": {
+        "month_of_bill": "2026-07"
+      }
+    }
+  },
+  "scenario_result": {
+    "profile": {
+      "profile_id": "plan_solar_battery_ev_family",
+      "scenario_hint": "PLAN + SOLAR (EXIST)",
+      "location": {
+        "postcode": "3000",
+        "address": {
+          "state": "VIC"
+        },
+        "context": {
+          "climate_zone": "6",
+          "distributor_region": "CitiPower_VIC"
+        }
+      },
+      "plan": {
+        "retailer_name": "Origin",
+        "current_plan_name": "Everyday",
+        "eligibility": {
+          "has_smart_meter": true
+        },
+        "solar_fit_enabled": true,
+        "fit_rate": 0.1
+      },
+      "energy_usage": {
+        "monthly_usage_kwh": 860,
+        "month_of_bill": "2026-07",
+        "daily_usage_kwh": 28.67
+      },
+      "household": {
+        "type": "Detached",
+        "ownership": "own",
+        "people_count": "4+",
+        "occupancy_pattern": [
+          "weekday_evening_only",
+          "school_term_pattern",
+          "public_holiday_home"
+        ],
+        "work_from_home_days": 3,
+        "has_children": true,
+        "phase_connection": "three_phase",
+        "controlled_load_present": true,
+        "lifestyle_signals": {
+          "has_pool": true,
+          "has_electric_hot_water": true,
+          "has_air_conditioning": true,
+          "has_electric_heating": true
+        },
+        "appliances": {
+          "dryer": true,
+          "dishwasher": true,
+          "pool_pump": false,
+          "induction_cooktop": true
+        }
+      },
+      "solar": {
+        "has_solar": true,
+        "system": {
+          "size_kw": 8.0,
+          "inverter_brand": "Fronius",
+          "inverter_model": "SE7600H",
+          "inverter_phase": "three_phase",
+          "install_year": 2024
+        },
+        "performance": {
+          "estimated_export_ratio": 0.6,
+          "self_consumption_ratio": 0.4,
+          "export_cap_kw": 7.0
+        }
+      },
+      "battery": {
+        "has_battery": true,
+        "system": {
+          "capacity_kwh": 10.0,
+          "usable_capacity_kwh": 9.0,
+          "brand": "Tesla",
+          "model": "SBR",
+          "install_year": 2024,
+          "coupling": "dc_coupled"
+        },
+        "features": {
+          "backup_capability": true,
+          "health_estimate": "good"
+        }
+      },
+      "ev": {
+        "has_ev": true,
+        "usage": {
+          "annual_km": 18000
+        },
+        "charging": {
+          "charger_type": "home_ac",
+          "location": "home",
+          "pattern": "overnight",
+          "flexible": true,
+          "home_charging_share": 1.0
+        }
+      },
+      "device_inputs": {
+        "lighting": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "winter",
+            "quantity": 17,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "refrigerator": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "wifi_router": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 24
+          }
+        },
+        "air_conditioning": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "winter",
+            "quantity": 1,
+            "start_hour": 18,
+            "end_hour": 23
+          }
+        },
+        "electric_heating": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "season": "winter",
+            "quantity": 2,
+            "start_hour": 17,
+            "end_hour": 22
+          }
+        },
+        "pool_pump": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "daytime",
+            "quantity": 1,
+            "start_hour": 10,
+            "end_hour": 16
+          }
+        },
+        "dishwasher": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 7,
+            "time_of_day": "evening",
+            "start_hour": 19,
+            "end_hour": 21
+          }
+        },
+        "dryer": {
+          "enabled": true,
+          "input": {
+            "quantity": 1,
+            "runs_per_week": 3,
+            "time_of_day": "evening",
+            "start_hour": 20,
+            "end_hour": 22
+          }
+        },
+        "induction_cooktop": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "evening",
+            "quantity": 2,
+            "start_hour": 17,
+            "end_hour": 20
+          }
+        },
+        "ev_charging": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "overnight",
+            "start_hour": 0,
+            "end_hour": 6,
+            "home_charging_share": 1.0,
+            "quantity": 1
+          }
+        },
+        "electric_hot_water_controlled_load": {
+          "enabled": true,
+          "input": {
+            "time_of_day": "overnight",
+            "quantity": 1,
+            "start_hour": 0,
+            "end_hour": 6
+          }
+        }
+      },
+      "interval_data_cdr": {
+        "has_data": true,
+        "source": "synthetic_interval_inference",
+        "execution_mode": "CALIBRATED_PROFILE",
+        "confidence_band": "basic",
+        "interval_profile_summary": {
+          "resolution_minutes": 30,
+          "start_date": "2026-07-01",
+          "end_date": "2026-07-31",
+          "series_points": 1488,
+          "aggregate_kwh": 876.397
+        },
+        "resolved_monthly_usage_kwh": 860.0,
+        "resolved_daily_usage_kwh": 28.271,
+        "components_summary": {
+          "gross_kwh": 876.397122,
+          "ev_kwh": 259.890411,
+          "solar_gen_kwh": 612.56,
+          "battery_charge_kwh": 258.720898,
+          "battery_discharge_kwh": 236.264068,
+          "net_import_kwh": 614.741263,
+          "net_export_kwh": 68.5569
+        }
+      },
+      "simulation_status": {
+        "interval_data_cdr": "ok"
+      }
+    },
+    "available_scenarios": [
+      {
+        "scenario": "PLAN ONLY",
+        "calculation_ready": true,
+        "confidence_score": 100.0,
+        "optional_inputs_mock": []
+      },
+      {
+        "scenario": "PLAN + SOLAR (NEW)",
+        "calculation_ready": true,
+        "confidence_score": 66.67,
+        "optional_inputs_mock": [
+          {
+            "field": "solar.site_conditions.rooftop_suitability",
+            "mock_value": "mock_value",
+            "note": "mock_only"
+          },
+          {
+            "field": "preferences.install_willingness",
+            "mock_value": "mock_value",
+            "note": "mock_only"
+          },
+          {
+            "field": "solar.site_conditions.shading_level",
+            "mock_value": "mock_value",
+            "note": "mock_only"
+          }
+        ]
+      },
+      {
+        "scenario": "PLAN + SOLAR (EXIST)",
+        "calculation_ready": true,
+        "confidence_score": 100.0,
+        "optional_inputs_mock": []
+      },
+      {
+        "scenario": "PLAN + SOLAR (EXIST) / New Plan",
+        "calculation_ready": true,
+        "confidence_score": 89.8,
+        "optional_inputs_mock": [
+          {
+            "field": "plan.tariff_type",
+            "mock_value": "example_value",
+            "note": "mock_only"
+          }
+        ]
+      }
+    ],
+    "available_scenario_names": [
+      "PLAN ONLY",
+      "PLAN + SOLAR (NEW)",
+      "PLAN + SOLAR (EXIST)",
+      "PLAN + SOLAR (EXIST) / New Plan"
+    ],
+    "unavailable_scenarios": [
+      {
+        "scenario": "PLAN + SOLAR (EXIST) / Add Battery",
+        "missing_required_fields": [
+          "battery.intent.wants_battery"
+        ],
+        "missing_conditional_fields": [],
+        "inferable_missing_required_fields": [],
+        "non_inferable_query_missing_required_fields": [],
+        "non_inferable_calc_missing_required_fields": [
+          "battery.intent.wants_battery"
+        ],
+        "missing_optional_fields": [],
+        "optional_inputs_mock": []
+      },
+      {
+        "scenario": "PLAN + SOLAR + BATTERY + EV",
+        "missing_required_fields": [
+          "preferences.maximum_upfront_budget"
+        ],
+        "missing_conditional_fields": [],
+        "inferable_missing_required_fields": [],
+        "non_inferable_query_missing_required_fields": [],
+        "non_inferable_calc_missing_required_fields": [
+          "preferences.maximum_upfront_budget"
+        ],
+        "missing_optional_fields": [
+          "preferences.primary_goal",
+          "preferences.payment_preference",
+          "preferences.upfront_vs_monthly"
+        ],
+        "optional_inputs_mock": [
+          {
+            "field": "preferences.primary_goal",
+            "mock_value": "example_value",
+            "note": "mock_only"
+          },
+          {
+            "field": "preferences.payment_preference",
+            "mock_value": "mock_value",
+            "note": "mock_only"
+          },
+          {
+            "field": "preferences.upfront_vs_monthly",
+            "mock_value": "mock_value",
+            "note": "mock_only"
+          }
+        ]
+      },
+      {
+        "scenario": "PLAN + SOLAR + BATTERY + EV / New Plan",
+        "missing_required_fields": [
+          "preferences.maximum_upfront_budget"
+        ],
+        "missing_conditional_fields": [],
+        "inferable_missing_required_fields": [],
+        "non_inferable_query_missing_required_fields": [],
+        "non_inferable_calc_missing_required_fields": [
+          "preferences.maximum_upfront_budget"
+        ],
+        "missing_optional_fields": [
+          "preferences.primary_goal",
+          "preferences.payment_preference",
+          "preferences.upfront_vs_monthly",
+          "plan.tariff_type"
+        ],
+        "optional_inputs_mock": [
+          {
+            "field": "preferences.primary_goal",
+            "mock_value": "example_value",
+            "note": "mock_only"
+          },
+          {
+            "field": "preferences.payment_preference",
+            "mock_value": "mock_value",
+            "note": "mock_only"
+          },
+          {
+            "field": "preferences.upfront_vs_monthly",
+            "mock_value": "mock_value",
+            "note": "mock_only"
+          },
+          {
+            "field": "plan.tariff_type",
+            "mock_value": "example_value",
+            "note": "mock_only"
+          }
+        ]
+      },
+      {
+        "scenario": "PLAN + SOLAR + BATTERY + EV / Update Battery",
+        "missing_required_fields": [
+          "preferences.maximum_upfront_budget"
+        ],
+        "missing_conditional_fields": [],
+        "inferable_missing_required_fields": [],
+        "non_inferable_query_missing_required_fields": [],
+        "non_inferable_calc_missing_required_fields": [
+          "preferences.maximum_upfront_budget"
+        ],
+        "missing_optional_fields": [
+          "preferences.primary_goal",
+          "preferences.payment_preference",
+          "preferences.upfront_vs_monthly"
+        ],
+        "optional_inputs_mock": [
+          {
+            "field": "preferences.primary_goal",
+            "mock_value": "example_value",
+            "note": "mock_only"
+          },
+          {
+            "field": "preferences.payment_preference",
+            "mock_value": "mock_value",
+            "note": "mock_only"
+          },
+          {
+            "field": "preferences.upfront_vs_monthly",
+            "mock_value": "mock_value",
+            "note": "mock_only"
+          }
+        ]
+      },
+      {
+        "scenario": "PLAN + SOLAR + BATTERY + EV / Add EV",
+        "missing_required_fields": [
+          "preferences.maximum_upfront_budget",
+          "ev.vehicle.battery_size_kwh"
+        ],
+        "missing_conditional_fields": [],
+        "inferable_missing_required_fields": [],
+        "non_inferable_query_missing_required_fields": [],
+        "non_inferable_calc_missing_required_fields": [
+          "preferences.maximum_upfront_budget",
+          "ev.vehicle.battery_size_kwh"
+        ],
+        "missing_optional_fields": [
+          "preferences.primary_goal",
+          "preferences.payment_preference",
+          "preferences.upfront_vs_monthly"
+        ],
+        "optional_inputs_mock": [
+          {
+            "field": "preferences.primary_goal",
+            "mock_value": "example_value",
+            "note": "mock_only"
+          },
+          {
+            "field": "preferences.payment_preference",
+            "mock_value": "mock_value",
+            "note": "mock_only"
+          },
+          {
+            "field": "preferences.upfront_vs_monthly",
+            "mock_value": "mock_value",
+            "note": "mock_only"
+          }
+        ]
+      }
+    ]
+  },
+  "interval": {
+    "input_summary": {
+      "date": "2026-04-21",
+      "location": {
+        "postcode": "3000"
+      },
+      "household": {
+        "controlled_load_present": true
+      },
+      "solar": {
+        "has_solar": true,
+        "system": {
+          "size_kw": 8.0
+        },
+        "performance": {
+          "estimated_export_ratio": 0.6,
+          "self_consumption_ratio": 0.4,
+          "export_cap_kw": 7.0
+        }
+      },
+      "device_count_total": 11,
+      "device_count_enabled": 11,
+      "device_type_counts": {
+        "lighting": 1,
+        "refrigerator": 1,
+        "wifi_router": 1,
+        "air_conditioning": 1,
+        "electric_heating": 1,
+        "pool_pump": 1,
+        "dishwasher": 1,
+        "dryer": 1,
+        "induction_cooktop": 1,
+        "ev_charging": 1,
+        "electric_hot_water_controlled_load": 1
+      }
+    },
+    "result": {
+      "E1": {
+        "interval_reads": [
+          1.06,
+          1.06,
+          1.06,
+          1.06,
+          1.06,
+          1.06,
+          0.060000000000000005,
+          0.060000000000000005,
+          0.060000000000000005,
+          0.060000000000000005,
+          1.06,
+          1.06,
+          1.06,
+          1.06,
+          0.060000000000000005,
+          0.060000000000000005,
+          0.060000000000000005,
+          2.9209195402298853,
+          9.556561408972932,
+          7.76054653318502,
+          4.7992543482175964,
+          1.5468796440489432,
+          0.3935070967741935,
+          0.060000000000000005
+        ],
+        "daily_kwh": 38.0577
+      },
+      "E2": {
+        "interval_reads": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "daily_kwh": 6.0
+      },
+      "B1": {
+        "interval_reads": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.2955555555555555,
+          1.0066666666666664,
+          2.073333333333333,
+          3.1399999999999992,
+          3.2066666666666657,
+          3.917777777777778,
+          3.917777777777778,
+          3.2066666666666657,
+          3.1399999999999992,
+          2.073333333333333,
+          1.0066666666666664,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "daily_kwh": 26.9844
+      },
+      "solar_generation": {
+        "interval_reads": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.3555555555555555,
+          1.0666666666666664,
+          2.133333333333333,
+          3.1999999999999993,
+          4.266666666666666,
+          4.977777777777778,
+          4.977777777777778,
+          4.266666666666666,
+          3.1999999999999993,
+          2.133333333333333,
+          1.0666666666666664,
+          0.3555555555555555,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "daily_kwh": 32.0
+      }
+    }
+  }
+}

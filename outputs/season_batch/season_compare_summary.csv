@@ -1,0 +1,6 @@
+profile_index,profile_id,scenario_hint,people_count,wfh_days,summer_lighting,winter_lighting,delta_lighting,summer_ac,winter_ac,delta_ac,summer_heating,winter_heating,delta_heating,summer_E1,winter_E1,delta_E1,summer_E2,winter_E2,delta_E2,summer_B1,winter_B1,delta_B1
+1,plan_only_single_worker_1p,PLAN ONLY,1,2,None,None,None,None,None,None,None,None,None,13.5103,14.3546,0.8443,0.0,0.0,0.0,0.0,0.0,0.0
+2,plan_only_couple_2_3p_mixed,PLAN ONLY,2,3,None,None,None,None,None,None,None,None,None,16.1047,23.8584,7.7537,0.0,0.0,0.0,0.0,0.0,0.0
+3,plan_only_family_4_plus,PLAN ONLY,4+,1,None,None,None,None,None,None,None,None,None,24.3863,14.7121,-9.6742,6.0,6.0,0.0,0.0,0.0,0.0
+4,plan_solar_existing_wfh,PLAN + SOLAR (EXIST),2,5,None,None,None,None,None,None,None,None,None,14.6176,12.1611,-2.4565,6.0,6.0,0.0,19.7429,21.9304,2.1875
+5,plan_solar_battery_ev_family,PLAN + SOLAR + BATTERY + EV,4+,3,None,None,None,None,None,None,None,None,None,37.442,38.0577,0.6157,6.0,6.0,0.0,26.9844,26.9844,0.0

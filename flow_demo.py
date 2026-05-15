@@ -16,7 +16,7 @@ from typing import Any, Dict, List, Optional
 
 ROOT = Path(__file__).resolve().parents[1]
 SCENARIO_CHECKER_FILE = ROOT / "volta-guradian" / "scenario_checker" / "get_scenario.py"
-INTERVAL_BUILDER_FILE = ROOT / "interval-builder-demo" / "interval_builder.py"
+INTERVAL_BUILDER_FILE = Path(__file__).resolve().parent / "interval_builder.py"
 INTERVAL_DATA_SYNTH_FILE = (
     ROOT / "volta-guradian" / "interval_data" / "src" / "interval_data_engine" / "synthetic_interval_generator.py"
 )
@@ -51,6 +51,12 @@ DEVICE_QUANTITY_BASELINES: Dict[str, Dict[str, float]] = {
 
 
 def _load_function(py_file: Path, fn_name: str):
+    if not py_file.exists():
+        raise FileNotFoundError(
+            f"Missing dependency file: {py_file}. "
+            "If you cloned only `scenario-profile-flow-demo`, make sure bundled files are present "
+            "(e.g. `scenario-profile-flow-demo/interval_builder.py`), or clone the full mono-repo for optional integrations."
+        )
     module_name = f"mod_{py_file.stem}_{fn_name}"
     spec = importlib.util.spec_from_file_location(module_name, str(py_file))
     if spec is None or spec.loader is None:

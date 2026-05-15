@@ -15,7 +15,7 @@ This demo implements the flow:
 4. User selects one profile.
 5. The selected profile is sent to:
    - `scenario_checker` (`get_scenario`) (optional, `--with-scenario`)
-   - interval builder (`build_interval_read_day_24`)
+   - interval builder (`build_interval_read_day_24`, bundled in this repo)
 6. A single output JSON is produced for tracking.
 
 Each generated profile also includes `device_inputs` with a full device list
